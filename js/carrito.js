@@ -9,7 +9,7 @@ $('.carritoF').onclick = async e =>{
     $('.carrito1').classList.remove('visible')
     $('.carrito').classList.remove('visible')
     $('.carritoF').classList.remove('visible')
-    $('.carT').classList.remove('visible')
+    $('.carrito').classList.remove('visible')
 }
 compra_end = $('.compra_end_padre')
 
