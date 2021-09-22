@@ -4,7 +4,6 @@
 
 <button class="vaciar-carrito">Vaciar carrito</button>
 <div class="carrito-total">
-    <br>
     <h6 class="carrito-total-value">Total:</h6>
     <input id="realizar-compra" type="submit" value="Comprar">
     <a href="">ver mas productos</a>
