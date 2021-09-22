@@ -5,7 +5,7 @@
     height: 100vh;
     right: 900px;
     top: 0;
-    padding: 61px 10px 0 0;
+    padding: 61px 0px 0 0;
     z-index: 10;
     background-attachment: fixed;
     transition: all 0.37s;
@@ -69,11 +69,11 @@
 .carrito-productosR span {
     width: 40px;
     padding: 0 5px 0 5px;
-    margin-left: 150px;
+    margin-left: 140px;
 
 }.footer-c{
     height: 100%;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: auto;
     width: 100px;
     display: grid;
@@ -109,7 +109,7 @@
 .carrito-precio{
     color: #fff;
     border-top: var(--bord);
-    margin: 0 10px 0 50px;
+    margin: 0 20px 0 50px;
     padding: 0;
     margin-left: 120px;
 }
