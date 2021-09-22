@@ -29,6 +29,9 @@
     grid-template-columns: 30% 70%;
     grid-template-rows: 20px 80px;
     justify-content: left;
+    max-height:85vh;
+    overflow:scoll;
+
 }
 .carrito-productos h6{
     grid-column: 1/3;
