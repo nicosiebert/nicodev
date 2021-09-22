@@ -5,7 +5,7 @@
     height: 100vh;
     right: 900px;
     top: 0;
-    padding: 61px 0 0 0;
+    padding: 61px 10px 0 0;
     z-index: 10;
     background-attachment: fixed;
     transition: all 0.37s;
