@@ -1,10 +1,5 @@
 [
-    {
-      "precio": 2,
-      "id": 374,
-      "title": "Orange Mix",
-      "img": "https://bit.ly/3hWWC86"
-    },
+   
     {
       "precio": 1500,
       "id": 21234,
@@ -12,22 +7,10 @@
       "img": "https://bit.ly/3EF6RaF"
     },
     {
-      "precio": 4,
-      "id": 3456,
-      "title": "whisky",
-      "img": "https://bit.ly/3i0lMm3"
-    },
-    {
       "precio": 3.50,
       "id": 345145,
       "title": "coctel mojito",
       "img": "https://bit.ly/3EH1rfc"
-    },
-    {
-      "precio": 4,
-      "id": 221135,
-      "title": "Coctel lime",
-      "img": "bit.ly/3ky00I5"
     },
     {
       "precio": 1350,
