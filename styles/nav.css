@@ -2,7 +2,7 @@
     width: 250px;
     height: 100vh;
     position: fixed;
-    background: var(--primary);
+    background: var(--primary2);
     top: 0;
     left: 900px;;
     z-index: 100;
@@ -64,8 +64,8 @@
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: #00000070;
+    background: var(--fondo);
     display: block;
     z-index:90;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(9px);
 }

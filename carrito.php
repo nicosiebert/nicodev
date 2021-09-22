@@ -2,10 +2,10 @@
     
 </div>
 
-<button class="vaciar-carrito">Vaciar carrito</button>
+<button class="vaciar-carrito">Vaciar carrito :(</button>
 <div class="carrito-total">
     <h6 class="carrito-total-value">Total:</h6>
-    <input id="realizar-compra" type="submit" value="Comprar">
+    <input id="realizar-compra" type="submit" value="Comprar :)">
     <a href="">ver mas productos</a>
 
 </div>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="carrito-productosR">
-            <span class="borrar">borrar</span>
+            <span class="borrar">borrar :(</span>
             <div class="footer-c">
                 <p class="menos">-</p>
                 <input class="carrito-cantidad" type="number" name="" id="">

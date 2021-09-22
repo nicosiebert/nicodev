@@ -37,5 +37,5 @@
             }
 
 .bg-red{
-    background:red;
+    background:var(--danger);
 }

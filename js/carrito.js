@@ -47,6 +47,11 @@ document.addEventListener('DOMContentLoaded', async (e)=>{
 })
 // f que ocurre cuando se presionan los btn_add
 function AgregarCarrito(e){
+    let intervalo = setInterval(function(){
+        e.target.textContent = "✅✅"
+        setTimeout(function(){clearInterval(intervalo);e.target.textContent = "Añadir al carrito"}, 1000)
+    },10)
+    
     ObtenerProducto(e.target.getAttribute('href'));
     guardarCarrito(producto)
     PintarCarrito(carrito)
@@ -212,4 +217,5 @@ function vaciar_producto_listener(){
     });
 
 }
+
 

@@ -10,6 +10,7 @@
 
 </head>
 <body class="body">
+    <noscript class="noscript">DEBES ACTIVAR JAVASCRYPT EN TU NAVEGADOR</noscript>
     <!-- header incioo-->
     <header class="header">
         <div id="menu"class="header-menu">
@@ -61,8 +62,8 @@
      <br>
         <div class="compra_end_hijo">
         <img src="img\mantenimiento.png" alt="">
-        <h4>ups! esta funcionalidad no esta dispponible, solo es un ejemplo</h4>
-        <h6>(presione cualquier tecla para continuar)</h6>
+        <h4>Ups! esta funcionalidad no esta disponible, solo es un ejemplo🧐</h4>
+        <h6>👇(presione cualquier parte para continuar)👆</h6>
         </div>
     </div>
     <!-- fin includes -->
