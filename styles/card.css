@@ -1,0 +1,111 @@
+.card-ctn{
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 15px;
+    background: var(--light);
+}
+.card-title{
+    margin: 0px 5px 5px 5px;
+    background: var(--trans);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    border-bottom:var(--bord);
+    color: var(--primary);
+
+}
+.card-imgc{
+    width: 240px;
+    height: 300px;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid var(--bord);
+
+}
+.card-img{
+    box-sizing: content-box;
+    margin: 0;
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    color:auto;
+}
+.card-img:hover{
+    transition: all 0.5s ;
+    transform: scale(1.2);
+}
+.card-footer{
+    padding:0;
+    margin: 0 5px 5px 5px;
+    border-top:var(--bord) ;
+    background: var(--trans);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:auto;
+    
+}.card-footerContainer{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    color:auto;
+    color: var(--success);
+}
+.card-footerText{
+    color:auto;
+}
+
+.hbtn{
+    color:auto;
+}
+
+.btn{
+    color: #fff;
+    height: 30px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+    background:var(--success);
+}
+@media(min-width:900px) {
+    .btn:hover{
+        position: relative;
+        z-index:1!important;
+        transition: all 0.2s;
+        transform: scale(1.1);
+        background: var(--successhover);
+        border: 1px solid var(--successhover);
+        box-shadow: 0 0 10px 0 var(--successhover);
+    }
+}
+@keyframes btn {
+    0%{
+    color: #fff;
+    height: 30px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+    background:var(--success);
+    }
+    100%{
+            position: relative;
+            z-index:1!important;
+            transition: all 0.2s;
+            transform: scale(1.1);
+            background: var(--successhover);
+            border: 1px solid var(--successhover);
+            box-shadow: 0 0 10px 0 var(--successhover);
+        
+    }
+    }
+    .btn:active{
+        animation:btn 0.37s;
+    }

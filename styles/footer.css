@@ -1,0 +1,30 @@
+.footer{
+    margin: 0;
+    padding: 7px 0 0 0;
+    width: var(--wv);
+    height: 50px;
+    background: var(--primary);
+    box-sizing: content-box;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
+}
+.footer-container{
+    margin: 0;
+    padding: 0;
+
+    background: unset;
+
+}
+.footer-list-container{
+    background: unset;
+    margin: 0;
+    padding: 0;
+
+}
+.footer-list{
+    color: var(--text1);
+    display: inline-block;
+    font-size: 15px;
+}

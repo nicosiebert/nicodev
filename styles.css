@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url(variables.css);
+@import url(styles/footer.css);
+@import url(styles/nav.css);
+@import url(styles/header.css);
+@import url(styles/section.css);
+@import url(styles/card.css);
+@import url(styles/scrollbar.css);
+@import url(styles/carrito.css);
+*{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.body{
+    width: var(--vw);
+    margin: 0;
+    padding: 60px 0 0 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.visible{
+    visibility: visible;
+    opacity: 1;
+}
+.invisible{
+    visibility: hidden;
+    opacity: 0;
+}
+.tl{
+    transform: translate(-900px);
+}

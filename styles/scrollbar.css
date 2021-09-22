@@ -1,0 +1,25 @@
+.body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent ;
+
+}
+.body::-webkit-scrollbar-thumb {
+    background: var(--primary8);
+    border-radius: 4px;
+}
+.body::-webkit-scrollbar-thumb:hover {
+    background: var(--primary5);
+}
+.body::-webkit-scrollbar-thumb:active {
+    background-color:  var(--primary8);
+}
+.body::-webkit-scrollbar-track {
+    display: none;
+    background: var(--primary4);
+    border-radius: 4px;
+}
+.body::-webkit-scrollbar-track:hover,
+.body::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

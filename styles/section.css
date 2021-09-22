@@ -1,0 +1,41 @@
+.section{
+    width: var(--wv);
+    height: auto;
+    min-height: 100vh;
+    background: var(--light);
+    display: grid;
+    justify-content: center;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+
+
+
+}
+
+        .section-container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+            .section-header{
+                background: local;
+
+            }
+
+            
+                
+            .section-section{
+                background: local;
+
+            }
+
+.bg-red{
+    background:red;
+}
